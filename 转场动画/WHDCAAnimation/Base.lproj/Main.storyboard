@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="coco" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" misplaced="YES" restorationIdentifier="hello" translatesAutoresizingMaskIntoConstraints="NO" id="avv-ei-S4s">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OM8-8n-R8J">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="OM8-8n-R8J" secondAttribute="trailing" id="2Ub-Rr-XIU"/>
+                            <constraint firstItem="OM8-8n-R8J" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="CM1-QC-uJa"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="avv-ei-S4s" secondAttribute="bottom" id="WFK-3T-a6U"/>
+                            <constraint firstItem="OM8-8n-R8J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bAv-Ui-agV"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OM8-8n-R8J" secondAttribute="bottom" id="bIR-O6-abl"/>
+                            <constraint firstItem="avv-ei-S4s" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="dpO-ex-xdA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="avv-ei-S4s" secondAttribute="trailing" id="gKR-7T-Ga3"/>
+                            <constraint firstItem="avv-ei-S4s" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="stw-PR-0w2"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="myview" destination="OM8-8n-R8J" id="zMv-qV-G6q"/>
+                        <outlet property="webView" destination="avv-ei-S4s" id="4m5-dJ-htX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Demo Viewcontroller-->
+        <scene sceneID="ZeF-td-pCh">
+            <objects>
+                <viewController storyboardIdentifier="haha" id="Zm8-Qe-1Ug" customClass="DemoViewcontroller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pIV-hN-vPh"/>
+                        <viewControllerLayoutGuide type="bottom" id="2gd-P8-WOb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VBh-J0-f8S">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" alpha="0.69999998807907104" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DTq-xH-TQO">
+                                <rect key="frame" x="28" y="28" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.7843137255" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="VCy-tc-fSW"/>
+                                    <constraint firstAttribute="width" constant="130" id="bOh-gC-rAH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="淡化效果">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButton:" destination="Zm8-Qe-1Ug" eventType="touchUpInside" id="vfn-ee-OH7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O5E-q6-TT1">
+                                <rect key="frame" x="28" y="204" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.7843137255" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="kHj-IL-btu"/>
+                                    <constraint firstAttribute="height" constant="30" id="lJO-xG-Jcw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="3D立方效果">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButton:" destination="Zm8-Qe-1Ug" eventType="touchUpInside" id="zqD-hr-gNy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ev8-cH-A4U">
+                                <rect key="frame" x="28" y="72" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.7843137255" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="37R-DW-mC4"/>
+                                    <constraint firstAttribute="width" constant="130" id="EaR-tC-zQt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="Push效果">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButton:" destination="Zm8-Qe-1Ug" eventType="touchUpInside" id="v12-DT-o1h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2pG-BL-FNi">
+                                <rect key="frame" x="28" y="160" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.7843137255" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="GGB-Yp-Vzm"/>
+                                    <constraint firstAttribute="width" constant="130" id="Iec-Ui-pP9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="覆盖效果">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButton:" destination="Zm8-Qe-1Ug" eventType="touchUpInside" id="JG6-W5-ULS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJW-ZG-suj">
+                                <rect key="frame" x="28" y="116" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.7843137255" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gRK-cL-pxl"/>
+                                    <constraint firstAttribute="width" constant="130" id="po3-XL-52b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="揭开效果">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButton:" destination="Zm8-Qe-1Ug" eventType="touchUpInside" id="eNW-tf-EBe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHi-6a-5DQ">
+                                <rect key="frame" x="28" y="336" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.7843137255" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4LN-jB-cx2"/>
+                                    <constraint firstAttribute="width" constant="130" id="Gm6-Up-cEE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="波纹效果">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButton:" destination="Zm8-Qe-1Ug" eventType="touchUpInside" id="CE2-AK-J6e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4o-MI-m3p">
+                                <rect key="frame" x="28" y="292" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.7843137255" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="tXP-cP-l2M"/>
+                                    <constraint firstAttribute="width" constant="130" id="tpD-rU-5Ig"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="翻转效果">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButton:" destination="Zm8-Qe-1Ug" eventType="touchUpInside" id="38B-Tv-KM8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFT-Yq-o4Q">
+                                <rect key="frame" x="28" y="248" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.7843137255" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="9b0-FI-iDj"/>
+                                    <constraint firstAttribute="height" constant="30" id="hnW-DH-I2S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="吮吸效果">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButton:" destination="Zm8-Qe-1Ug" eventType="touchUpInside" id="ZVd-1i-Rwu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gbv-L5-lDf">
+                                <rect key="frame" x="174" y="28" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.7843137255" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="UZ8-aL-TcT"/>
+                                    <constraint firstAttribute="height" constant="30" id="jOp-xn-NTE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="翻页效果">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButton:" destination="Zm8-Qe-1Ug" eventType="touchUpInside" id="aLC-ky-Wr1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCl-Sb-CKj">
+                                <rect key="frame" x="174" y="204" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.7843137255" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="6nr-U5-QBq"/>
+                                    <constraint firstAttribute="height" constant="30" id="SWa-bH-Cwv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="下翻页效果">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButton:" destination="Zm8-Qe-1Ug" eventType="touchUpInside" id="hBl-fB-uaM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="73P-De-0DC">
+                                <rect key="frame" x="174" y="72" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.7843137255" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3WP-Zb-Qa2"/>
+                                    <constraint firstAttribute="width" constant="130" id="gSC-VV-XlZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="反翻页效果">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButton:" destination="Zm8-Qe-1Ug" eventType="touchUpInside" id="srL-GP-iPV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YbB-hU-dB4">
+                                <rect key="frame" x="174" y="160" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.7843137255" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="JHY-D1-PGC"/>
+                                    <constraint firstAttribute="height" constant="30" id="eA5-Cp-CM8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="关镜头效果">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButton:" destination="Zm8-Qe-1Ug" eventType="touchUpInside" id="81I-ph-ZBc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TaN-aU-Qad">
+                                <rect key="frame" x="174" y="116" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.7843137255" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="XgZ-2e-tmd"/>
+                                    <constraint firstAttribute="height" constant="30" id="lXp-ge-tkh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="开镜头效果">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButton:" destination="Zm8-Qe-1Ug" eventType="touchUpInside" id="Mu5-ij-cZo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHZ-Wh-Iv2">
+                                <rect key="frame" x="174" y="336" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.7843137255" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="95y-YB-4TC"/>
+                                    <constraint firstAttribute="width" constant="130" id="KNO-4n-T7t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="右翻转效果">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButton:" destination="Zm8-Qe-1Ug" eventType="touchUpInside" id="dw7-Ro-1Xt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYh-bL-SAs">
+                                <rect key="frame" x="174" y="292" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.7843137255" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="1QW-6O-uxw"/>
+                                    <constraint firstAttribute="width" constant="130" id="pGW-4n-EW7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="左翻转效果">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButton:" destination="Zm8-Qe-1Ug" eventType="touchUpInside" id="Cpi-gs-i88"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66L-D0-M2j">
+                                <rect key="frame" x="174" y="248" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.7843137255" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Oxt-rg-6eR"/>
+                                    <constraint firstAttribute="width" constant="130" id="j9D-2p-jB5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="上翻页效果">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButton:" destination="Zm8-Qe-1Ug" eventType="touchUpInside" id="9VB-ja-p7A"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Q4o-MI-m3p" firstAttribute="leading" secondItem="VBh-J0-f8S" secondAttribute="leading" constant="28" id="2tI-OE-rHx"/>
+                            <constraint firstAttribute="trailing" secondItem="TaN-aU-Qad" secondAttribute="trailing" constant="16" id="7Kh-y7-wnA"/>
+                            <constraint firstItem="LHZ-Wh-Iv2" firstAttribute="top" secondItem="FYh-bL-SAs" secondAttribute="bottom" constant="14" id="8py-zP-OEg"/>
+                            <constraint firstItem="DTq-xH-TQO" firstAttribute="top" secondItem="pIV-hN-vPh" secondAttribute="bottom" constant="8" id="9Md-X1-hfU"/>
+                            <constraint firstItem="YbB-hU-dB4" firstAttribute="top" secondItem="TaN-aU-Qad" secondAttribute="bottom" constant="14" id="B8H-NK-r9S"/>
+                            <constraint firstItem="oJW-ZG-suj" firstAttribute="leading" secondItem="VBh-J0-f8S" secondAttribute="leading" constant="28" id="C1u-Mw-qDE"/>
+                            <constraint firstItem="2pG-BL-FNi" firstAttribute="top" secondItem="oJW-ZG-suj" secondAttribute="bottom" constant="14" id="CIf-ic-PvH"/>
+                            <constraint firstAttribute="trailing" secondItem="73P-De-0DC" secondAttribute="trailing" constant="16" id="Dqf-4t-PDA"/>
+                            <constraint firstItem="CCl-Sb-CKj" firstAttribute="top" secondItem="YbB-hU-dB4" secondAttribute="bottom" constant="14" id="EJG-uJ-rJH"/>
+                            <constraint firstItem="eHi-6a-5DQ" firstAttribute="top" secondItem="Q4o-MI-m3p" secondAttribute="bottom" constant="14" id="ICd-32-TDY"/>
+                            <constraint firstAttribute="trailing" secondItem="LHZ-Wh-Iv2" secondAttribute="trailing" constant="16" id="M47-c1-Ppv"/>
+                            <constraint firstItem="JFT-Yq-o4Q" firstAttribute="top" secondItem="O5E-q6-TT1" secondAttribute="bottom" constant="14" id="MOf-P3-1Bj"/>
+                            <constraint firstItem="ev8-cH-A4U" firstAttribute="leading" secondItem="VBh-J0-f8S" secondAttribute="leading" constant="28" id="NCV-5D-3fA"/>
+                            <constraint firstItem="73P-De-0DC" firstAttribute="top" secondItem="Gbv-L5-lDf" secondAttribute="bottom" constant="14" id="Qc6-gY-S7m"/>
+                            <constraint firstAttribute="trailing" secondItem="Gbv-L5-lDf" secondAttribute="trailing" constant="16" id="Rk0-R7-HWG"/>
+                            <constraint firstItem="66L-D0-M2j" firstAttribute="top" secondItem="CCl-Sb-CKj" secondAttribute="bottom" constant="14" id="Ykq-q6-W92"/>
+                            <constraint firstItem="JFT-Yq-o4Q" firstAttribute="leading" secondItem="VBh-J0-f8S" secondAttribute="leading" constant="28" id="Zlb-1w-Hh8"/>
+                            <constraint firstAttribute="trailing" secondItem="CCl-Sb-CKj" secondAttribute="trailing" constant="16" id="am5-4c-MgF"/>
+                            <constraint firstItem="2pG-BL-FNi" firstAttribute="leading" secondItem="VBh-J0-f8S" secondAttribute="leading" constant="28" id="c33-l3-Nqi"/>
+                            <constraint firstItem="DTq-xH-TQO" firstAttribute="leading" secondItem="VBh-J0-f8S" secondAttribute="leading" constant="28" id="cl2-Dj-hvZ"/>
+                            <constraint firstItem="oJW-ZG-suj" firstAttribute="top" secondItem="ev8-cH-A4U" secondAttribute="bottom" constant="14" id="err-Ea-ttn"/>
+                            <constraint firstAttribute="trailing" secondItem="YbB-hU-dB4" secondAttribute="trailing" constant="16" id="gKe-vY-r3c"/>
+                            <constraint firstItem="FYh-bL-SAs" firstAttribute="top" secondItem="66L-D0-M2j" secondAttribute="bottom" constant="14" id="kap-eY-byC"/>
+                            <constraint firstItem="eHi-6a-5DQ" firstAttribute="leading" secondItem="VBh-J0-f8S" secondAttribute="leading" constant="28" id="lIn-oK-S2N"/>
+                            <constraint firstItem="ev8-cH-A4U" firstAttribute="top" secondItem="DTq-xH-TQO" secondAttribute="bottom" constant="14" id="mPs-xI-YcF"/>
+                            <constraint firstAttribute="trailing" secondItem="66L-D0-M2j" secondAttribute="trailing" constant="16" id="n4U-cp-fB5"/>
+                            <constraint firstAttribute="trailing" secondItem="FYh-bL-SAs" secondAttribute="trailing" constant="16" id="qZV-3h-TOF"/>
+                            <constraint firstItem="O5E-q6-TT1" firstAttribute="leading" secondItem="VBh-J0-f8S" secondAttribute="leading" constant="28" id="shu-sf-Xda"/>
+                            <constraint firstItem="TaN-aU-Qad" firstAttribute="top" secondItem="73P-De-0DC" secondAttribute="bottom" constant="14" id="tr1-Si-dHO"/>
+                            <constraint firstItem="O5E-q6-TT1" firstAttribute="top" secondItem="2pG-BL-FNi" secondAttribute="bottom" constant="14" id="u8y-rG-Dfv"/>
+                            <constraint firstItem="Gbv-L5-lDf" firstAttribute="top" secondItem="pIV-hN-vPh" secondAttribute="bottom" constant="8" id="vYz-bb-LvD"/>
+                            <constraint firstItem="Q4o-MI-m3p" firstAttribute="top" secondItem="JFT-Yq-o4Q" secondAttribute="bottom" constant="14" id="xto-Hf-ygE"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gst-0D-4Ea" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="678" y="282"/>
+        </scene>
+    </scenes>
+</document>
