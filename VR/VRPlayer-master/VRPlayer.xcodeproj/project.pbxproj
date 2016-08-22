@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C04870F1D3DCA9400578FC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C04870E1D3DCA9400578FC6 /* main.m */; };
+		4C0487121D3DCA9400578FC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0487111D3DCA9400578FC6 /* AppDelegate.m */; };
+		4C0487151D3DCA9400578FC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0487141D3DCA9400578FC6 /* ViewController.m */; };
+		4C0487181D3DCA9400578FC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0487161D3DCA9400578FC6 /* Main.storyboard */; };
+		4C04871A1D3DCA9400578FC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0487191D3DCA9400578FC6 /* Assets.xcassets */; };
+		4C04871D1D3DCA9400578FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C04871B1D3DCA9400578FC6 /* LaunchScreen.storyboard */; };
+		4C0487281D3DCA9400578FC6 /* VRPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0487271D3DCA9400578FC6 /* VRPlayerTests.m */; };
+		4C0487331D3DCA9400578FC6 /* VRPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0487321D3DCA9400578FC6 /* VRPlayerUITests.m */; };
+		4C0487431D3DCB1B00578FC6 /* VRPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0487421D3DCB1B00578FC6 /* VRPlayerController.m */; };
+		4C0487461D3DCC9B00578FC6 /* VRPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0487451D3DCC9B00578FC6 /* VRPlayer.m */; };
+		4C0487491D3DD1C500578FC6 /* AAPLEAGLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0487481D3DD1C500578FC6 /* AAPLEAGLLayer.m */; };
+		4CEB66AA1D3DF648004529DB /* cuc_ieschool.flv in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB66A91D3DF648004529DB /* cuc_ieschool.flv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C0487241D3DCA9400578FC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C0487021D3DCA9400578FC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C0487091D3DCA9400578FC6;
+			remoteInfo = VRPlayer;
+		};
+		4C04872F1D3DCA9400578FC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C0487021D3DCA9400578FC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C0487091D3DCA9400578FC6;
+			remoteInfo = VRPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C04870A1D3DCA9400578FC6 /* VRPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C04870E1D3DCA9400578FC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C0487101D3DCA9400578FC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C0487111D3DCA9400578FC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C0487131D3DCA9400578FC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C0487141D3DCA9400578FC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C0487171D3DCA9400578FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C0487191D3DCA9400578FC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C04871C1D3DCA9400578FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C04871E1D3DCA9400578FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C0487231D3DCA9400578FC6 /* VRPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0487271D3DCA9400578FC6 /* VRPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRPlayerTests.m; sourceTree = "<group>"; };
+		4C0487291D3DCA9400578FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C04872E1D3DCA9400578FC6 /* VRPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0487321D3DCA9400578FC6 /* VRPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRPlayerUITests.m; sourceTree = "<group>"; };
+		4C0487341D3DCA9400578FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C0487411D3DCB1B00578FC6 /* VRPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRPlayerController.h; sourceTree = "<group>"; };
+		4C0487421D3DCB1B00578FC6 /* VRPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRPlayerController.m; sourceTree = "<group>"; };
+		4C0487441D3DCC9B00578FC6 /* VRPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRPlayer.h; sourceTree = "<group>"; };
+		4C0487451D3DCC9B00578FC6 /* VRPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRPlayer.m; sourceTree = "<group>"; };
+		4C0487471D3DD1C500578FC6 /* AAPLEAGLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLEAGLLayer.h; sourceTree = "<group>"; };
+		4C0487481D3DD1C500578FC6 /* AAPLEAGLLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLEAGLLayer.m; sourceTree = "<group>"; };
+		4C04874A1D3DD32600578FC6 /* VRPlayerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRPlayerHeader.h; sourceTree = "<group>"; };
+		4C04874B1D3DD4A700578FC6 /* KBPlayerEnumHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBPlayerEnumHeaders.h; sourceTree = "<group>"; };
+		4CEB66A91D3DF648004529DB /* cuc_ieschool.flv */ = {isa = PBXFileReference; lastKnownFileType = file; path = cuc_ieschool.flv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C0487071D3DCA9400578FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0487201D3DCA9400578FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C04872B1D3DCA9400578FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C0487011D3DCA9400578FC6 = {
+			isa = PBXGroup;
+			children = (
+				4C04870C1D3DCA9400578FC6 /* VRPlayer */,
+				4C0487261D3DCA9400578FC6 /* VRPlayerTests */,
+				4C0487311D3DCA9400578FC6 /* VRPlayerUITests */,
+				4C04870B1D3DCA9400578FC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C04870B1D3DCA9400578FC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C04870A1D3DCA9400578FC6 /* VRPlayer.app */,
+				4C0487231D3DCA9400578FC6 /* VRPlayerTests.xctest */,
+				4C04872E1D3DCA9400578FC6 /* VRPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C04870C1D3DCA9400578FC6 /* VRPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				4C0487101D3DCA9400578FC6 /* AppDelegate.h */,
+				4C0487111D3DCA9400578FC6 /* AppDelegate.m */,
+				4C0487131D3DCA9400578FC6 /* ViewController.h */,
+				4C0487141D3DCA9400578FC6 /* ViewController.m */,
+				4C0487401D3DCB0300578FC6 /* 0_0 */,
+				4C0487161D3DCA9400578FC6 /* Main.storyboard */,
+				4C0487191D3DCA9400578FC6 /* Assets.xcassets */,
+				4C04871B1D3DCA9400578FC6 /* LaunchScreen.storyboard */,
+				4C04871E1D3DCA9400578FC6 /* Info.plist */,
+				4C04870D1D3DCA9400578FC6 /* Supporting Files */,
+			);
+			path = VRPlayer;
+			sourceTree = "<group>";
+		};
+		4C04870D1D3DCA9400578FC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CEB66A91D3DF648004529DB /* cuc_ieschool.flv */,
+				4C04870E1D3DCA9400578FC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C0487261D3DCA9400578FC6 /* VRPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C0487271D3DCA9400578FC6 /* VRPlayerTests.m */,
+				4C0487291D3DCA9400578FC6 /* Info.plist */,
+			);
+			path = VRPlayerTests;
+			sourceTree = "<group>";
+		};
+		4C0487311D3DCA9400578FC6 /* VRPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C0487321D3DCA9400578FC6 /* VRPlayerUITests.m */,
+				4C0487341D3DCA9400578FC6 /* Info.plist */,
+			);
+			path = VRPlayerUITests;
+			sourceTree = "<group>";
+		};
+		4C0487401D3DCB0300578FC6 /* 0_0 */ = {
+			isa = PBXGroup;
+			children = (
+				4C0487411D3DCB1B00578FC6 /* VRPlayerController.h */,
+				4C0487421D3DCB1B00578FC6 /* VRPlayerController.m */,
+				4C0487441D3DCC9B00578FC6 /* VRPlayer.h */,
+				4C0487451D3DCC9B00578FC6 /* VRPlayer.m */,
+				4C0487471D3DD1C500578FC6 /* AAPLEAGLLayer.h */,
+				4C0487481D3DD1C500578FC6 /* AAPLEAGLLayer.m */,
+				4C04874A1D3DD32600578FC6 /* VRPlayerHeader.h */,
+				4C04874B1D3DD4A700578FC6 /* KBPlayerEnumHeaders.h */,
+			);
+			path = 0_0;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C0487091D3DCA9400578FC6 /* VRPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0487371D3DCA9400578FC6 /* Build configuration list for PBXNativeTarget "VRPlayer" */;
+			buildPhases = (
+				4C0487061D3DCA9400578FC6 /* Sources */,
+				4C0487071D3DCA9400578FC6 /* Frameworks */,
+				4C0487081D3DCA9400578FC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRPlayer;
+			productName = VRPlayer;
+			productReference = 4C04870A1D3DCA9400578FC6 /* VRPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C0487221D3DCA9400578FC6 /* VRPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C04873A1D3DCA9400578FC6 /* Build configuration list for PBXNativeTarget "VRPlayerTests" */;
+			buildPhases = (
+				4C04871F1D3DCA9400578FC6 /* Sources */,
+				4C0487201D3DCA9400578FC6 /* Frameworks */,
+				4C0487211D3DCA9400578FC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C0487251D3DCA9400578FC6 /* PBXTargetDependency */,
+			);
+			name = VRPlayerTests;
+			productName = VRPlayerTests;
+			productReference = 4C0487231D3DCA9400578FC6 /* VRPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C04872D1D3DCA9400578FC6 /* VRPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C04873D1D3DCA9400578FC6 /* Build configuration list for PBXNativeTarget "VRPlayerUITests" */;
+			buildPhases = (
+				4C04872A1D3DCA9400578FC6 /* Sources */,
+				4C04872B1D3DCA9400578FC6 /* Frameworks */,
+				4C04872C1D3DCA9400578FC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C0487301D3DCA9400578FC6 /* PBXTargetDependency */,
+			);
+			name = VRPlayerUITests;
+			productName = VRPlayerUITests;
+			productReference = 4C04872E1D3DCA9400578FC6 /* VRPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C0487021D3DCA9400578FC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Gan Tian";
+				TargetAttributes = {
+					4C0487091D3DCA9400578FC6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4C0487221D3DCA9400578FC6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4C0487091D3DCA9400578FC6;
+					};
+					4C04872D1D3DCA9400578FC6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4C0487091D3DCA9400578FC6;
+					};
+				};
+			};
+			buildConfigurationList = 4C0487051D3DCA9400578FC6 /* Build configuration list for PBXProject "VRPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C0487011D3DCA9400578FC6;
+			productRefGroup = 4C04870B1D3DCA9400578FC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C0487091D3DCA9400578FC6 /* VRPlayer */,
+				4C0487221D3DCA9400578FC6 /* VRPlayerTests */,
+				4C04872D1D3DCA9400578FC6 /* VRPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C0487081D3DCA9400578FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C04871D1D3DCA9400578FC6 /* LaunchScreen.storyboard in Resources */,
+				4C04871A1D3DCA9400578FC6 /* Assets.xcassets in Resources */,
+				4CEB66AA1D3DF648004529DB /* cuc_ieschool.flv in Resources */,
+				4C0487181D3DCA9400578FC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0487211D3DCA9400578FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C04872C1D3DCA9400578FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C0487061D3DCA9400578FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0487491D3DD1C500578FC6 /* AAPLEAGLLayer.m in Sources */,
+				4C0487431D3DCB1B00578FC6 /* VRPlayerController.m in Sources */,
+				4C0487151D3DCA9400578FC6 /* ViewController.m in Sources */,
+				4C0487121D3DCA9400578FC6 /* AppDelegate.m in Sources */,
+				4C04870F1D3DCA9400578FC6 /* main.m in Sources */,
+				4C0487461D3DCC9B00578FC6 /* VRPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C04871F1D3DCA9400578FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0487281D3DCA9400578FC6 /* VRPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C04872A1D3DCA9400578FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0487331D3DCA9400578FC6 /* VRPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C0487251D3DCA9400578FC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C0487091D3DCA9400578FC6 /* VRPlayer */;
+			targetProxy = 4C0487241D3DCA9400578FC6 /* PBXContainerItemProxy */;
+		};
+		4C0487301D3DCA9400578FC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C0487091D3DCA9400578FC6 /* VRPlayer */;
+			targetProxy = 4C04872F1D3DCA9400578FC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C0487161D3DCA9400578FC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C0487171D3DCA9400578FC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C04871B1D3DCA9400578FC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C04871C1D3DCA9400578FC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C0487351D3DCA9400578FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C0487361D3DCA9400578FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C0487381D3DCA9400578FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VRPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3glasses.VRPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C0487391D3DCA9400578FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VRPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3glasses.VRPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C04873B1D3DCA9400578FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VRPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3glasses.VRPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRPlayer.app/VRPlayer";
+			};
+			name = Debug;
+		};
+		4C04873C1D3DCA9400578FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VRPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3glasses.VRPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRPlayer.app/VRPlayer";
+			};
+			name = Release;
+		};
+		4C04873E1D3DCA9400578FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VRPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3glasses.VRPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VRPlayer;
+			};
+			name = Debug;
+		};
+		4C04873F1D3DCA9400578FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VRPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3glasses.VRPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VRPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C0487051D3DCA9400578FC6 /* Build configuration list for PBXProject "VRPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0487351D3DCA9400578FC6 /* Debug */,
+				4C0487361D3DCA9400578FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0487371D3DCA9400578FC6 /* Build configuration list for PBXNativeTarget "VRPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0487381D3DCA9400578FC6 /* Debug */,
+				4C0487391D3DCA9400578FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C04873A1D3DCA9400578FC6 /* Build configuration list for PBXNativeTarget "VRPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C04873B1D3DCA9400578FC6 /* Debug */,
+				4C04873C1D3DCA9400578FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C04873D1D3DCA9400578FC6 /* Build configuration list for PBXNativeTarget "VRPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C04873E1D3DCA9400578FC6 /* Debug */,
+				4C04873F1D3DCA9400578FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C0487021D3DCA9400578FC6 /* Project object */;
+}
