@@ -32,7 +32,11 @@
 
 
 
--(void)table
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"提示" message:@"恭喜弹出" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil];
+    [alert show];
+}
 
 
 #pragma mark datasource
