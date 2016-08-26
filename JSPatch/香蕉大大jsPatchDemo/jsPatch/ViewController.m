@@ -32,7 +32,10 @@
 
 
 
+-(void)table
 
+
+#pragma mark datasource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return 10;
 }

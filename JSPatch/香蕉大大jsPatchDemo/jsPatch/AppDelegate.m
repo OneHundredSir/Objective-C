@@ -13,17 +13,14 @@
 @end
 
 @implementation AppDelegate
-
+//这个是后台获取的,改成自己的~
 static NSString *JSPatchKey = @"20e5c016a6b9f7bc";
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     
     //JSPatchKey是创建App获得的AppKey
-//    [JSPatch startWithAppKey:JSPatchKey];
-        [JSPatch testScriptInBundle];
-#ifdef DEBUG
-    [JSPatch setupDevelopment];
-#endif
+    [JSPatch startWithAppKey:JSPatchKey];
+//    [JSPatch testScriptInBundle];
     [JSPatch sync];
     return YES;
 }
