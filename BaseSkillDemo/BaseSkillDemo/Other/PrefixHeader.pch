@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  BaseSkillDemo
+//
+//  Created by HUN on 16/8/27.
+//  Copyright © 2016年 com.zeustel.zssd/Users/huanghuiqun/Desktop/BaseSkillDemok. All rights reserved.
+///Users/huanghuiqun/Desktop/BaseSkillDemo
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#pragma mark 第三方
+#import "UIDevice-Hardware.h"
+
+#import "UIDevice-Orientation.h"
+
+
+
+#endif /* PrefixHeader_pch */
