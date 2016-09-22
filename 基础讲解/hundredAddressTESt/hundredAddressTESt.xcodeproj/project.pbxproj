@@ -504,6 +504,7 @@
 				C01003BA1D8E61D80010549E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C01003BB1D8E61D80010549E /* Build configuration list for PBXNativeTarget "hundredAddressTEStTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +513,7 @@
 				C01003BD1D8E61D80010549E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C01003BE1D8E61D80010549E /* Build configuration list for PBXNativeTarget "hundredAddressTEStUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +522,7 @@
 				C01003C01D8E61D80010549E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

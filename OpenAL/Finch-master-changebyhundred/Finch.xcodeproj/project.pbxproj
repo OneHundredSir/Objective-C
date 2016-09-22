@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D1BA64D141A41EB004A5A9F /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA9AB141752D800F4071B /* OpenAL.framework */; };
+		0D1BA64E141A41EB004A5A9F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA9A9141752BE00F4071B /* AudioToolbox.framework */; };
+		0D1BA64F141A41EB004A5A9F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA9A7141752A200F4071B /* AVFoundation.framework */; };
+		0D1BA658141A45B6004A5A9F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1BA657141A45B6004A5A9F /* SenTestingKit.framework */; };
+		0D1BA659141A45B6004A5A9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA973141750F700F4071B /* UIKit.framework */; };
+		0D1BA65A141A45B6004A5A9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA94114174FA000F4071B /* Foundation.framework */; };
+		0D1BA675141A46FE004A5A9F /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA9AB141752D800F4071B /* OpenAL.framework */; };
+		0D1BA676141A4700004A5A9F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA9A9141752BE00F4071B /* AudioToolbox.framework */; };
+		0D1BA677141A4702004A5A9F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA9A7141752A200F4071B /* AVFoundation.framework */; };
+		0D2AA94214174FA000F4071B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA94114174FA000F4071B /* Foundation.framework */; };
+		0D2AA974141750F700F4071B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA973141750F700F4071B /* UIKit.framework */; };
+		0D2AA975141750F800F4071B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA94114174FA000F4071B /* Foundation.framework */; };
+		0D2AA99A1417515A00F4071B /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AA98E1417515A00F4071B /* Application.m */; };
+		0D2AA99B1417515A00F4071B /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AA9901417515A00F4071B /* Controller.m */; };
+		0D2AA99C1417515A00F4071B /* Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D2AA9911417515A00F4071B /* Controller.xib */; };
+		0D2AA99D1417515A00F4071B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2AA9921417515A00F4071B /* Default.png */; };
+		0D2AA99E1417515A00F4071B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2AA9931417515A00F4071B /* Icon.png */; };
+		0D2AA99F1417515A00F4071B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2AA9941417515A00F4071B /* Icon@2x.png */; };
+		0D2AA9A11417515A00F4071B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AA9961417515A00F4071B /* main.m */; };
+		0D2AA9A21417515A00F4071B /* Bootstrap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D2AA9971417515A00F4071B /* Bootstrap.xib */; };
+		0D2AA9A51417521500F4071B /* libFinch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA93E14174FA000F4071B /* libFinch.a */; };
+		0D2AA9A8141752A200F4071B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA9A7141752A200F4071B /* AVFoundation.framework */; };
+		0D2AA9AA141752BE00F4071B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA9A9141752BE00F4071B /* AudioToolbox.framework */; };
+		0D2AA9AC141752D800F4071B /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA9AB141752D800F4071B /* OpenAL.framework */; };
+		0D47D26E169480D500720C56 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA9A7141752A200F4071B /* AVFoundation.framework */; };
+		0D47D2711694848E00720C56 /* FISoundContextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D47D2701694848E00720C56 /* FISoundContextTests.m */; };
+		0D74728E165AA8230079C0FF /* libFinch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA93E14174FA000F4071B /* libFinch.a */; };
+		0D9CA6E81695735A007B522D /* FISampleDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9CA6E61695735A007B522D /* FISampleDecoder.h */; };
+		0D9CA6E91695735A007B522D /* FISampleDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CA6E71695735A007B522D /* FISampleDecoder.m */; };
+		0D9CA6ED169573C7007B522D /* FISampleDecoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CA6EC169573C7007B522D /* FISampleDecoderTests.m */; };
+		0D9CA6F016958028007B522D /* FISampleFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9CA6EE16958028007B522D /* FISampleFormat.h */; };
+		0D9CA6F116958028007B522D /* FISampleFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CA6EF16958028007B522D /* FISampleFormat.m */; };
+		0D9CA6F81695896E007B522D /* FISoundSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9CA6F61695896E007B522D /* FISoundSource.h */; };
+		0D9CA6F91695896E007B522D /* FISoundSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CA6F71695896E007B522D /* FISoundSource.m */; };
+		0D9CA6FC16958D46007B522D /* FISound.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9CA6FA16958D46007B522D /* FISound.h */; };
+		0D9CA6FD16958D46007B522D /* FISound.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CA6FB16958D46007B522D /* FISound.m */; };
+		0D9CA7001695CE59007B522D /* FISoundEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9CA6FE1695CE59007B522D /* FISoundEngine.h */; };
+		0D9CA7011695CE59007B522D /* FISoundEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CA6FF1695CE59007B522D /* FISoundEngine.m */; };
+		0D9CA7041695DEE2007B522D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9CA7021695DEE2007B522D /* Default-568h@2x.png */; };
+		0D9CA7051695DEE2007B522D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9CA7031695DEE2007B522D /* Default@2x.png */; };
+		0D9CA7071695E16F007B522D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9CA7021695DEE2007B522D /* Default-568h@2x.png */; };
+		0D9CA7081695E16F007B522D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9CA7031695DEE2007B522D /* Default@2x.png */; };
+		0D9CA7091695E16F007B522D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2AA9921417515A00F4071B /* Default.png */; };
+		0D9CA70A1695E16F007B522D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2AA9931417515A00F4071B /* Icon.png */; };
+		0D9CA70B1695E16F007B522D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2AA9941417515A00F4071B /* Icon@2x.png */; };
+		0DAF0E891694223100612EED /* FISampleBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DAF0E871694223100612EED /* FISampleBuffer.h */; };
+		0DAF0E8A1694223100612EED /* FISampleBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF0E881694223100612EED /* FISampleBuffer.m */; };
+		0DAF0E8D1694254000612EED /* FISampleBufferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF0E8C1694254000612EED /* FISampleBufferTests.m */; };
+		0DAF0E9616943E0800612EED /* FISoundContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DAF0E9416943E0800612EED /* FISoundContext.h */; };
+		0DAF0E9716943E0800612EED /* FISoundContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF0E9516943E0800612EED /* FISoundContext.m */; };
+		0DAF0E9A16943F5200612EED /* FISoundDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DAF0E9816943F5200612EED /* FISoundDevice.h */; };
+		0DAF0E9B16943F5200612EED /* FISoundDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF0E9916943F5200612EED /* FISoundDevice.m */; };
+		0DAF0EA0169479A900612EED /* FISoundDeviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF0E9D169479A400612EED /* FISoundDeviceTests.m */; };
+		0DAF0EA716947C8D00612EED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA973141750F700F4071B /* UIKit.framework */; };
+		0DAF0EA816947C8D00612EED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2AA94114174FA000F4071B /* Foundation.framework */; };
+		0DAF0EAA16947C8D00612EED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DAF0EA916947C8D00612EED /* CoreGraphics.framework */; };
+		0DAF0EC516947D8400612EED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF0EC116947D8400612EED /* AppDelegate.m */; };
+		0DAF0EC716947D8400612EED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF0EC316947D8400612EED /* main.m */; };
+		0DC3BFD91698153D00B7C4F2 /* FITestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3BFD81698153D00B7C4F2 /* FITestCase.m */; };
+		0DC3BFDE1698165E00B7C4F2 /* mono8bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DC3BFDA1698165E00B7C4F2 /* mono8bit.wav */; };
+		0DC3BFDF1698165E00B7C4F2 /* mono8bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DC3BFDA1698165E00B7C4F2 /* mono8bit.wav */; };
+		0DC3BFE01698165E00B7C4F2 /* mono16bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DC3BFDB1698165E00B7C4F2 /* mono16bit.wav */; };
+		0DC3BFE11698165E00B7C4F2 /* mono16bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DC3BFDB1698165E00B7C4F2 /* mono16bit.wav */; };
+		0DC3BFE21698165E00B7C4F2 /* stereo8bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DC3BFDC1698165E00B7C4F2 /* stereo8bit.wav */; };
+		0DC3BFE31698165E00B7C4F2 /* stereo8bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DC3BFDC1698165E00B7C4F2 /* stereo8bit.wav */; };
+		0DC3BFE41698165E00B7C4F2 /* stereo16bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DC3BFDD1698165E00B7C4F2 /* stereo16bit.wav */; };
+		0DC3BFE51698165E00B7C4F2 /* stereo16bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DC3BFDD1698165E00B7C4F2 /* stereo16bit.wav */; };
+		0DC3BFE81698189E00B7C4F2 /* FISoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3BFE71698189D00B7C4F2 /* FISoundTests.m */; };
+		0DC3BFEA16981DD700B7C4F2 /* duration.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DC3BFE916981DD700B7C4F2 /* duration.wav */; };
+		0DC3BFED1698214900B7C4F2 /* FISoundSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3BFEC1698214800B7C4F2 /* FISoundSourceTests.m */; };
+		0DCA26E116998170000B20EB /* finch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DCA26E016998170000B20EB /* finch.wav */; };
+		0DF32BA4141A37250059033C /* FIError.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DF32BA3141A37250059033C /* FIError.h */; };
+		0DFC9E56147FBC9800FC2066 /* FIError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC9E55147FBC9800FC2066 /* FIError.m */; };
+		0DFC9E68147FDD6100FC2066 /* Lib-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0DFC9E67147FDD6000FC2066 /* Lib-Prefix.pch */; };
+		C0E4899C1D81342800972A10 /* sheng1.m4r in Resources */ = {isa = PBXBuildFile; fileRef = C0E4899A1D81342800972A10 /* sheng1.m4r */; };
+		C0E4899D1D81342800972A10 /* sheng2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0E4899B1D81342800972A10 /* sheng2.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D2AA9AD1417582F00F4071B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D2AA93514174FA000F4071B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D2AA93D14174FA000F4071B;
+			remoteInfo = Finch;
+		};
+		0DAF0EC816947E3800612EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D2AA93514174FA000F4071B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DAF0EA416947C8D00612EED;
+			remoteInfo = "Test Runner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D1BA656141A45B6004A5A9F /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D1BA657141A45B6004A5A9F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0D1BA664141A45B6004A5A9F /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Tests-Prefix.pch"; path = "Finch/Tests-Prefix.pch"; sourceTree = "<group>"; };
+		0D2AA93E14174FA000F4071B /* libFinch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFinch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2AA94114174FA000F4071B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D2AA971141750F700F4071B /* Finch Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finch Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2AA973141750F700F4071B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0D2AA98D1417515A00F4071B /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Application.h; path = Demo/Application.h; sourceTree = SOURCE_ROOT; };
+		0D2AA98E1417515A00F4071B /* Application.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Application.m; path = Demo/Application.m; sourceTree = SOURCE_ROOT; };
+		0D2AA98F1417515A00F4071B /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Controller.h; path = Demo/Controller.h; sourceTree = SOURCE_ROOT; };
+		0D2AA9901417515A00F4071B /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Controller.m; path = Demo/Controller.m; sourceTree = SOURCE_ROOT; };
+		0D2AA9911417515A00F4071B /* Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Controller.xib; path = Demo/Controller.xib; sourceTree = SOURCE_ROOT; };
+		0D2AA9921417515A00F4071B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Demo/Default.png; sourceTree = SOURCE_ROOT; };
+		0D2AA9931417515A00F4071B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Demo/Icon.png; sourceTree = SOURCE_ROOT; };
+		0D2AA9941417515A00F4071B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Demo/Icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		0D2AA9951417515A00F4071B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Demo/Info.plist; sourceTree = SOURCE_ROOT; };
+		0D2AA9961417515A00F4071B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Demo/main.m; sourceTree = SOURCE_ROOT; };
+		0D2AA9971417515A00F4071B /* Bootstrap.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Bootstrap.xib; path = Demo/Bootstrap.xib; sourceTree = SOURCE_ROOT; };
+		0D2AA9A61417526C00F4071B /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = prefix.pch; path = Demo/prefix.pch; sourceTree = SOURCE_ROOT; };
+		0D2AA9A7141752A200F4071B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0D2AA9A9141752BE00F4071B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0D2AA9AB141752D800F4071B /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		0D47D2701694848E00720C56 /* FISoundContextTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISoundContextTests.m; path = Finch/FISoundContextTests.m; sourceTree = "<group>"; };
+		0D9CA6E61695735A007B522D /* FISampleDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISampleDecoder.h; path = Finch/FISampleDecoder.h; sourceTree = "<group>"; };
+		0D9CA6E71695735A007B522D /* FISampleDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISampleDecoder.m; path = Finch/FISampleDecoder.m; sourceTree = "<group>"; };
+		0D9CA6EC169573C7007B522D /* FISampleDecoderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISampleDecoderTests.m; path = Finch/FISampleDecoderTests.m; sourceTree = "<group>"; };
+		0D9CA6EE16958028007B522D /* FISampleFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISampleFormat.h; path = Finch/FISampleFormat.h; sourceTree = "<group>"; };
+		0D9CA6EF16958028007B522D /* FISampleFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISampleFormat.m; path = Finch/FISampleFormat.m; sourceTree = "<group>"; };
+		0D9CA6F61695896E007B522D /* FISoundSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISoundSource.h; path = Finch/FISoundSource.h; sourceTree = "<group>"; };
+		0D9CA6F71695896E007B522D /* FISoundSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISoundSource.m; path = Finch/FISoundSource.m; sourceTree = "<group>"; };
+		0D9CA6FA16958D46007B522D /* FISound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISound.h; path = Finch/FISound.h; sourceTree = "<group>"; };
+		0D9CA6FB16958D46007B522D /* FISound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISound.m; path = Finch/FISound.m; sourceTree = "<group>"; };
+		0D9CA6FE1695CE59007B522D /* FISoundEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISoundEngine.h; path = Finch/FISoundEngine.h; sourceTree = "<group>"; };
+		0D9CA6FF1695CE59007B522D /* FISoundEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISoundEngine.m; path = Finch/FISoundEngine.m; sourceTree = "<group>"; };
+		0D9CA7021695DEE2007B522D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Demo/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		0D9CA7031695DEE2007B522D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Demo/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		0DAF0E871694223100612EED /* FISampleBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISampleBuffer.h; path = Finch/FISampleBuffer.h; sourceTree = "<group>"; };
+		0DAF0E881694223100612EED /* FISampleBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISampleBuffer.m; path = Finch/FISampleBuffer.m; sourceTree = "<group>"; };
+		0DAF0E8C1694254000612EED /* FISampleBufferTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISampleBufferTests.m; path = Finch/FISampleBufferTests.m; sourceTree = "<group>"; };
+		0DAF0E9416943E0800612EED /* FISoundContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISoundContext.h; path = Finch/FISoundContext.h; sourceTree = "<group>"; };
+		0DAF0E9516943E0800612EED /* FISoundContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISoundContext.m; path = Finch/FISoundContext.m; sourceTree = "<group>"; };
+		0DAF0E9816943F5200612EED /* FISoundDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISoundDevice.h; path = Finch/FISoundDevice.h; sourceTree = "<group>"; };
+		0DAF0E9916943F5200612EED /* FISoundDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISoundDevice.m; path = Finch/FISoundDevice.m; sourceTree = "<group>"; };
+		0DAF0E9D169479A400612EED /* FISoundDeviceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISoundDeviceTests.m; path = Finch/FISoundDeviceTests.m; sourceTree = "<group>"; };
+		0DAF0EA516947C8D00612EED /* TestRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DAF0EA916947C8D00612EED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0DAF0EC016947D8400612EED /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Test Runner/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		0DAF0EC116947D8400612EED /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Test Runner/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		0DAF0EC216947D8400612EED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Test Runner/Info.plist"; sourceTree = SOURCE_ROOT; };
+		0DAF0EC316947D8400612EED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Test Runner/main.m"; sourceTree = SOURCE_ROOT; };
+		0DAF0EC416947D8400612EED /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = "Test Runner/Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		0DC3BFD71698153D00B7C4F2 /* FITestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FITestCase.h; path = Finch/FITestCase.h; sourceTree = "<group>"; };
+		0DC3BFD81698153D00B7C4F2 /* FITestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FITestCase.m; path = Finch/FITestCase.m; sourceTree = "<group>"; };
+		0DC3BFDA1698165E00B7C4F2 /* mono8bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = mono8bit.wav; path = Resources/mono8bit.wav; sourceTree = SOURCE_ROOT; };
+		0DC3BFDB1698165E00B7C4F2 /* mono16bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = mono16bit.wav; path = Resources/mono16bit.wav; sourceTree = SOURCE_ROOT; };
+		0DC3BFDC1698165E00B7C4F2 /* stereo8bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = stereo8bit.wav; path = Resources/stereo8bit.wav; sourceTree = SOURCE_ROOT; };
+		0DC3BFDD1698165E00B7C4F2 /* stereo16bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = stereo16bit.wav; path = Resources/stereo16bit.wav; sourceTree = SOURCE_ROOT; };
+		0DC3BFE71698189D00B7C4F2 /* FISoundTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISoundTests.m; path = Finch/FISoundTests.m; sourceTree = "<group>"; };
+		0DC3BFE916981DD700B7C4F2 /* duration.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = duration.wav; path = Resources/duration.wav; sourceTree = SOURCE_ROOT; };
+		0DC3BFEB1698214800B7C4F2 /* FISoundSourceTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISoundSourceTests.h; path = Finch/FISoundSourceTests.h; sourceTree = "<group>"; };
+		0DC3BFEC1698214800B7C4F2 /* FISoundSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISoundSourceTests.m; path = Finch/FISoundSourceTests.m; sourceTree = "<group>"; };
+		0DCA26E016998170000B20EB /* finch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = finch.wav; path = Demo/finch.wav; sourceTree = SOURCE_ROOT; };
+		0DF32BA3141A37250059033C /* FIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIError.h; path = Finch/FIError.h; sourceTree = "<group>"; };
+		0DFC9E55147FBC9800FC2066 /* FIError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FIError.m; path = Finch/FIError.m; sourceTree = "<group>"; };
+		0DFC9E67147FDD6000FC2066 /* Lib-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Lib-Prefix.pch"; path = "Finch/Lib-Prefix.pch"; sourceTree = "<group>"; };
+		C0E4899A1D81342800972A10 /* sheng1.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; name = sheng1.m4r; path = Demo/sheng1.m4r; sourceTree = SOURCE_ROOT; };
+		C0E4899B1D81342800972A10 /* sheng2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sheng2.mp3; path = Demo/sheng2.mp3; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D1BA652141A45B6004A5A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D74728E165AA8230079C0FF /* libFinch.a in Frameworks */,
+				0D1BA658141A45B6004A5A9F /* SenTestingKit.framework in Frameworks */,
+				0D1BA659141A45B6004A5A9F /* UIKit.framework in Frameworks */,
+				0D1BA65A141A45B6004A5A9F /* Foundation.framework in Frameworks */,
+				0D1BA675141A46FE004A5A9F /* OpenAL.framework in Frameworks */,
+				0D1BA677141A4702004A5A9F /* AVFoundation.framework in Frameworks */,
+				0D1BA676141A4700004A5A9F /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2AA93B14174FA000F4071B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2AA94214174FA000F4071B /* Foundation.framework in Frameworks */,
+				0D1BA64D141A41EB004A5A9F /* OpenAL.framework in Frameworks */,
+				0D1BA64E141A41EB004A5A9F /* AudioToolbox.framework in Frameworks */,
+				0D1BA64F141A41EB004A5A9F /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2AA96E141750F700F4071B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2AA9A51417521500F4071B /* libFinch.a in Frameworks */,
+				0D2AA9AC141752D800F4071B /* OpenAL.framework in Frameworks */,
+				0D2AA974141750F700F4071B /* UIKit.framework in Frameworks */,
+				0D2AA975141750F800F4071B /* Foundation.framework in Frameworks */,
+				0D2AA9AA141752BE00F4071B /* AudioToolbox.framework in Frameworks */,
+				0D2AA9A8141752A200F4071B /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAF0EA216947C8D00612EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAF0EA716947C8D00612EED /* UIKit.framework in Frameworks */,
+				0DAF0EA816947C8D00612EED /* Foundation.framework in Frameworks */,
+				0DAF0EAA16947C8D00612EED /* CoreGraphics.framework in Frameworks */,
+				0D47D26E169480D500720C56 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D2AA93314174FA000F4071B = {
+			isa = PBXGroup;
+			children = (
+				0DAF0E851694221500612EED /* Plumbing */,
+				0D9CA6F51695846E007B522D /* High-Level Interface */,
+				0DAF0EAB16947C8D00612EED /* Test Runner */,
+				0D2AA978141750F800F4071B /* Demo */,
+				0D9CA7061695DEED007B522D /* Resources */,
+				0D2AA94014174FA000F4071B /* Frameworks */,
+				0D2AA93F14174FA000F4071B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D2AA93F14174FA000F4071B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D2AA93E14174FA000F4071B /* libFinch.a */,
+				0D2AA971141750F700F4071B /* Finch Demo.app */,
+				0D1BA656141A45B6004A5A9F /* Tests.octest */,
+				0DAF0EA516947C8D00612EED /* TestRunner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D2AA94014174FA000F4071B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D2AA9AB141752D800F4071B /* OpenAL.framework */,
+				0D2AA9A9141752BE00F4071B /* AudioToolbox.framework */,
+				0D2AA9A7141752A200F4071B /* AVFoundation.framework */,
+				0D2AA94114174FA000F4071B /* Foundation.framework */,
+				0D2AA973141750F700F4071B /* UIKit.framework */,
+				0D1BA657141A45B6004A5A9F /* SenTestingKit.framework */,
+				0DAF0EA916947C8D00612EED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D2AA978141750F800F4071B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0D2AA98D1417515A00F4071B /* Application.h */,
+				0D2AA98E1417515A00F4071B /* Application.m */,
+				0D2AA98F1417515A00F4071B /* Controller.h */,
+				0D2AA9901417515A00F4071B /* Controller.m */,
+				0D2AA9911417515A00F4071B /* Controller.xib */,
+				0D2AA9971417515A00F4071B /* Bootstrap.xib */,
+				0D2AA9951417515A00F4071B /* Info.plist */,
+				0D2AA9A61417526C00F4071B /* prefix.pch */,
+				0DCA26E016998170000B20EB /* finch.wav */,
+				0D2AA9961417515A00F4071B /* main.m */,
+				C0E4899A1D81342800972A10 /* sheng1.m4r */,
+				C0E4899B1D81342800972A10 /* sheng2.mp3 */,
+			);
+			name = Demo;
+			path = "Finch Demo";
+			sourceTree = "<group>";
+		};
+		0D9CA6F51695846E007B522D /* High-Level Interface */ = {
+			isa = PBXGroup;
+			children = (
+				0D9CA6FA16958D46007B522D /* FISound.h */,
+				0D9CA6FB16958D46007B522D /* FISound.m */,
+				0DC3BFE71698189D00B7C4F2 /* FISoundTests.m */,
+				0D9CA6FE1695CE59007B522D /* FISoundEngine.h */,
+				0D9CA6FF1695CE59007B522D /* FISoundEngine.m */,
+				0D1BA664141A45B6004A5A9F /* Tests-Prefix.pch */,
+				0DFC9E67147FDD6000FC2066 /* Lib-Prefix.pch */,
+			);
+			name = "High-Level Interface";
+			sourceTree = "<group>";
+		};
+		0D9CA7061695DEED007B522D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0DC3BFE916981DD700B7C4F2 /* duration.wav */,
+				0DC3BFDA1698165E00B7C4F2 /* mono8bit.wav */,
+				0DC3BFDB1698165E00B7C4F2 /* mono16bit.wav */,
+				0DC3BFDC1698165E00B7C4F2 /* stereo8bit.wav */,
+				0DC3BFDD1698165E00B7C4F2 /* stereo16bit.wav */,
+				0D9CA7021695DEE2007B522D /* Default-568h@2x.png */,
+				0D9CA7031695DEE2007B522D /* Default@2x.png */,
+				0D2AA9921417515A00F4071B /* Default.png */,
+				0D2AA9941417515A00F4071B /* Icon@2x.png */,
+				0D2AA9931417515A00F4071B /* Icon.png */,
+			);
+			name = Resources;
+			path = "Finch Demo";
+			sourceTree = "<group>";
+		};
+		0DAF0E851694221500612EED /* Plumbing */ = {
+			isa = PBXGroup;
+			children = (
+				0DF32BA3141A37250059033C /* FIError.h */,
+				0DFC9E55147FBC9800FC2066 /* FIError.m */,
+				0DC3BFD71698153D00B7C4F2 /* FITestCase.h */,
+				0DC3BFD81698153D00B7C4F2 /* FITestCase.m */,
+				0DAF0E9816943F5200612EED /* FISoundDevice.h */,
+				0DAF0E9916943F5200612EED /* FISoundDevice.m */,
+				0DAF0E9D169479A400612EED /* FISoundDeviceTests.m */,
+				0DAF0E9416943E0800612EED /* FISoundContext.h */,
+				0DAF0E9516943E0800612EED /* FISoundContext.m */,
+				0D47D2701694848E00720C56 /* FISoundContextTests.m */,
+				0D9CA6EE16958028007B522D /* FISampleFormat.h */,
+				0D9CA6EF16958028007B522D /* FISampleFormat.m */,
+				0DAF0E871694223100612EED /* FISampleBuffer.h */,
+				0DAF0E881694223100612EED /* FISampleBuffer.m */,
+				0DAF0E8C1694254000612EED /* FISampleBufferTests.m */,
+				0D9CA6E61695735A007B522D /* FISampleDecoder.h */,
+				0D9CA6E71695735A007B522D /* FISampleDecoder.m */,
+				0D9CA6EC169573C7007B522D /* FISampleDecoderTests.m */,
+				0D9CA6F61695896E007B522D /* FISoundSource.h */,
+				0D9CA6F71695896E007B522D /* FISoundSource.m */,
+				0DC3BFEB1698214800B7C4F2 /* FISoundSourceTests.h */,
+				0DC3BFEC1698214800B7C4F2 /* FISoundSourceTests.m */,
+			);
+			name = Plumbing;
+			sourceTree = "<group>";
+		};
+		0DAF0EAB16947C8D00612EED /* Test Runner */ = {
+			isa = PBXGroup;
+			children = (
+				0DAF0EC016947D8400612EED /* AppDelegate.h */,
+				0DAF0EC116947D8400612EED /* AppDelegate.m */,
+				0DAF0EC216947D8400612EED /* Info.plist */,
+				0DAF0EC316947D8400612EED /* main.m */,
+				0DAF0EC416947D8400612EED /* Prefix.pch */,
+			);
+			name = "Test Runner";
+			path = "Finch Test Suite";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D2AA93C14174FA000F4071B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF32BA4141A37250059033C /* FIError.h in Headers */,
+				0DFC9E68147FDD6100FC2066 /* Lib-Prefix.pch in Headers */,
+				0DAF0E891694223100612EED /* FISampleBuffer.h in Headers */,
+				0DAF0E9616943E0800612EED /* FISoundContext.h in Headers */,
+				0DAF0E9A16943F5200612EED /* FISoundDevice.h in Headers */,
+				0D9CA6E81695735A007B522D /* FISampleDecoder.h in Headers */,
+				0D9CA6F016958028007B522D /* FISampleFormat.h in Headers */,
+				0D9CA6F81695896E007B522D /* FISoundSource.h in Headers */,
+				0D9CA6FC16958D46007B522D /* FISound.h in Headers */,
+				0D9CA7001695CE59007B522D /* FISoundEngine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D1BA655141A45B6004A5A9F /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D1BA665141A45B6004A5A9F /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				0D1BA651141A45B6004A5A9F /* Sources */,
+				0D1BA652141A45B6004A5A9F /* Frameworks */,
+				0D1BA653141A45B6004A5A9F /* Resources */,
+				0D1BA654141A45B6004A5A9F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DAF0EC916947E3800612EED /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 0D1BA656141A45B6004A5A9F /* Tests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+		0D2AA93D14174FA000F4071B /* Finch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D2AA94B14174FA000F4071B /* Build configuration list for PBXNativeTarget "Finch" */;
+			buildPhases = (
+				0D2AA93A14174FA000F4071B /* Sources */,
+				0D2AA93B14174FA000F4071B /* Frameworks */,
+				0D2AA93C14174FA000F4071B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Finch;
+			productName = Finch;
+			productReference = 0D2AA93E14174FA000F4071B /* libFinch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0D2AA970141750F700F4071B /* Finch Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D2AA98A141750F800F4071B /* Build configuration list for PBXNativeTarget "Finch Demo" */;
+			buildPhases = (
+				0D2AA96D141750F700F4071B /* Sources */,
+				0D2AA96E141750F700F4071B /* Frameworks */,
+				0D2AA96F141750F700F4071B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D2AA9AE1417582F00F4071B /* PBXTargetDependency */,
+			);
+			name = "Finch Demo";
+			productName = "Finch Demo";
+			productReference = 0D2AA971141750F700F4071B /* Finch Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DAF0EA416947C8D00612EED /* Test Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DAF0EBD16947C8D00612EED /* Build configuration list for PBXNativeTarget "Test Runner" */;
+			buildPhases = (
+				0DAF0EA116947C8D00612EED /* Sources */,
+				0DAF0EA216947C8D00612EED /* Frameworks */,
+				0DAF0EA316947C8D00612EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test Runner";
+			productName = "Finch Test Suite";
+			productReference = 0DAF0EA516947C8D00612EED /* TestRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D2AA93514174FA000F4071B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0730;
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0D2AA93814174FA000F4071B /* Build configuration list for PBXProject "Finch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D2AA93314174FA000F4071B;
+			productRefGroup = 0D2AA93F14174FA000F4071B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D2AA93D14174FA000F4071B /* Finch */,
+				0D1BA655141A45B6004A5A9F /* Tests */,
+				0D2AA970141750F700F4071B /* Finch Demo */,
+				0DAF0EA416947C8D00612EED /* Test Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D1BA653141A45B6004A5A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC3BFDE1698165E00B7C4F2 /* mono8bit.wav in Resources */,
+				C0E4899C1D81342800972A10 /* sheng1.m4r in Resources */,
+				0DC3BFE01698165E00B7C4F2 /* mono16bit.wav in Resources */,
+				0DC3BFE21698165E00B7C4F2 /* stereo8bit.wav in Resources */,
+				0DC3BFE41698165E00B7C4F2 /* stereo16bit.wav in Resources */,
+				0DC3BFEA16981DD700B7C4F2 /* duration.wav in Resources */,
+				C0E4899D1D81342800972A10 /* sheng2.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2AA96F141750F700F4071B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2AA99C1417515A00F4071B /* Controller.xib in Resources */,
+				0D2AA99D1417515A00F4071B /* Default.png in Resources */,
+				0D2AA99E1417515A00F4071B /* Icon.png in Resources */,
+				0D2AA99F1417515A00F4071B /* Icon@2x.png in Resources */,
+				0D2AA9A21417515A00F4071B /* Bootstrap.xib in Resources */,
+				0D9CA7041695DEE2007B522D /* Default-568h@2x.png in Resources */,
+				0D9CA7051695DEE2007B522D /* Default@2x.png in Resources */,
+				0DCA26E116998170000B20EB /* finch.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAF0EA316947C8D00612EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9CA7071695E16F007B522D /* Default-568h@2x.png in Resources */,
+				0D9CA7081695E16F007B522D /* Default@2x.png in Resources */,
+				0D9CA7091695E16F007B522D /* Default.png in Resources */,
+				0D9CA70A1695E16F007B522D /* Icon.png in Resources */,
+				0D9CA70B1695E16F007B522D /* Icon@2x.png in Resources */,
+				0DC3BFDF1698165E00B7C4F2 /* mono8bit.wav in Resources */,
+				0DC3BFE11698165E00B7C4F2 /* mono16bit.wav in Resources */,
+				0DC3BFE31698165E00B7C4F2 /* stereo8bit.wav in Resources */,
+				0DC3BFE51698165E00B7C4F2 /* stereo16bit.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D1BA654141A45B6004A5A9F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D1BA651141A45B6004A5A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAF0E8D1694254000612EED /* FISampleBufferTests.m in Sources */,
+				0DAF0EA0169479A900612EED /* FISoundDeviceTests.m in Sources */,
+				0D47D2711694848E00720C56 /* FISoundContextTests.m in Sources */,
+				0D9CA6ED169573C7007B522D /* FISampleDecoderTests.m in Sources */,
+				0DC3BFD91698153D00B7C4F2 /* FITestCase.m in Sources */,
+				0DC3BFE81698189E00B7C4F2 /* FISoundTests.m in Sources */,
+				0DC3BFED1698214900B7C4F2 /* FISoundSourceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2AA93A14174FA000F4071B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DFC9E56147FBC9800FC2066 /* FIError.m in Sources */,
+				0DAF0E8A1694223100612EED /* FISampleBuffer.m in Sources */,
+				0DAF0E9716943E0800612EED /* FISoundContext.m in Sources */,
+				0DAF0E9B16943F5200612EED /* FISoundDevice.m in Sources */,
+				0D9CA6E91695735A007B522D /* FISampleDecoder.m in Sources */,
+				0D9CA6F116958028007B522D /* FISampleFormat.m in Sources */,
+				0D9CA6F91695896E007B522D /* FISoundSource.m in Sources */,
+				0D9CA6FD16958D46007B522D /* FISound.m in Sources */,
+				0D9CA7011695CE59007B522D /* FISoundEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2AA96D141750F700F4071B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2AA99A1417515A00F4071B /* Application.m in Sources */,
+				0D2AA99B1417515A00F4071B /* Controller.m in Sources */,
+				0D2AA9A11417515A00F4071B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAF0EA116947C8D00612EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAF0EC516947D8400612EED /* AppDelegate.m in Sources */,
+				0DAF0EC716947D8400612EED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D2AA9AE1417582F00F4071B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D2AA93D14174FA000F4071B /* Finch */;
+			targetProxy = 0D2AA9AD1417582F00F4071B /* PBXContainerItemProxy */;
+		};
+		0DAF0EC916947E3800612EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DAF0EA416947C8D00612EED /* Test Runner */;
+			targetProxy = 0DAF0EC816947E3800612EED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D1BA666141A45B6004A5A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestRunner.app/TestRunner";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Finch/Tests-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0D1BA667141A45B6004A5A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestRunner.app/TestRunner";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Finch/Tests-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		0D2AA94914174FA000F4071B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D2AA94A14174FA000F4071B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D2AA94C14174FA000F4071B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/Finch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Finch/Lib-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0D2AA94D14174FA000F4071B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/Finch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Finch/Lib-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0D2AA98B141750F800F4071B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Demo/prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0D2AA98C141750F800F4071B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Demo/prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0DAF0EBE16947C8D00612EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test Runner/Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "Test Runner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = TestRunner;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0DAF0EBF16947C8D00612EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test Runner/Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "Test Runner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = TestRunner;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D1BA665141A45B6004A5A9F /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D1BA666141A45B6004A5A9F /* Debug */,
+				0D1BA667141A45B6004A5A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D2AA93814174FA000F4071B /* Build configuration list for PBXProject "Finch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2AA94914174FA000F4071B /* Debug */,
+				0D2AA94A14174FA000F4071B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D2AA94B14174FA000F4071B /* Build configuration list for PBXNativeTarget "Finch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2AA94C14174FA000F4071B /* Debug */,
+				0D2AA94D14174FA000F4071B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D2AA98A141750F800F4071B /* Build configuration list for PBXNativeTarget "Finch Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2AA98B141750F800F4071B /* Debug */,
+				0D2AA98C141750F800F4071B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DAF0EBD16947C8D00612EED /* Build configuration list for PBXNativeTarget "Test Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAF0EBE16947C8D00612EED /* Debug */,
+				0DAF0EBF16947C8D00612EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D2AA93514174FA000F4071B /* Project object */;
+}

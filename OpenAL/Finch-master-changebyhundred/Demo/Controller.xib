@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Controller">
+            <connections>
+                <outlet property="view" destination="6" id="7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="6">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="450"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8">
+                    <rect key="frame" x="92" y="81" width="137" height="116"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="137" id="24"/>
+                        <constraint firstAttribute="height" constant="116" id="25"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal" title="Play">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="playSound" destination="-1" eventType="touchUpInside" id="23"/>
+                    </connections>
+                </button>
+                <slider opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.5" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="15">
+                    <rect key="frame" x="18" y="309" width="284" height="31"/>
+                    <connections>
+                        <action selector="updateSoundPitchFrom:" destination="-1" eventType="valueChanged" id="22"/>
+                    </connections>
+                </slider>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Pitch" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="16">
+                    <rect key="frame" x="20" y="280" width="280" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83">
+                    <rect key="frame" x="92" y="205" width="137" height="30"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="Stop">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stopSound" destination="-1" eventType="touchUpInside" id="88"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5L-o7-tiN">
+                    <rect key="frame" x="145" y="354" width="30" height="30"/>
+                    <state key="normal" title="new"/>
+                    <connections>
+                        <action selector="New:" destination="-1" eventType="touchUpInside" id="SpQ-Lo-ZjA"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.69019609689999994" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="15" firstAttribute="leading" secondItem="6" secondAttribute="leading" constant="20" symbolic="YES" id="29"/>
+                <constraint firstAttribute="trailing" secondItem="15" secondAttribute="trailing" constant="20" symbolic="YES" id="33"/>
+                <constraint firstAttribute="trailing" secondItem="16" secondAttribute="trailing" constant="20" symbolic="YES" id="54"/>
+                <constraint firstItem="16" firstAttribute="leading" secondItem="6" secondAttribute="leading" constant="20" symbolic="YES" id="55"/>
+                <constraint firstItem="15" firstAttribute="top" secondItem="16" secondAttribute="bottom" constant="8" symbolic="YES" id="67"/>
+                <constraint firstItem="15" firstAttribute="top" secondItem="16" secondAttribute="bottom" constant="8" id="68"/>
+                <constraint firstAttribute="bottom" secondItem="15" secondAttribute="bottom" constant="111" id="80"/>
+                <constraint firstItem="8" firstAttribute="top" secondItem="6" secondAttribute="top" constant="81" id="82"/>
+                <constraint firstItem="83" firstAttribute="leading" secondItem="8" secondAttribute="leading" id="84"/>
+                <constraint firstItem="83" firstAttribute="top" secondItem="8" secondAttribute="bottom" constant="8" symbolic="YES" id="85"/>
+                <constraint firstItem="16" firstAttribute="centerX" secondItem="83" secondAttribute="centerX" id="86"/>
+                <constraint firstItem="83" firstAttribute="trailing" secondItem="8" secondAttribute="trailing" id="87"/>
+                <constraint firstItem="F5L-o7-tiN" firstAttribute="centerX" secondItem="15" secondAttribute="centerX" id="9H4-eJ-mEh"/>
+                <constraint firstItem="F5L-o7-tiN" firstAttribute="top" secondItem="15" secondAttribute="bottom" constant="15" id="Nud-SR-bqb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

@@ -33,7 +33,6 @@ static long long passAdress = NULL;
 - (IBAction)changeBtn:(id)sender
 {
     UIButton *btn = (UIButton *)passAdress;
-//    NSObject *p = passAdress;
     btn.backgroundColor = [UIColor colorWithRed:randColor green:randColor blue:randColor alpha:1];
     
     

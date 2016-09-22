@@ -1,0 +1,5 @@
+#ifdef __OBJC__
+    #import <AVFoundation/AVFoundation.h>
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
